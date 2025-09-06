@@ -43,6 +43,7 @@ gem "net-http-persistent"
 gem "kredis"
 gem "platform_agent"
 gem "thruster"
+gem "kamal"
 
 group :development, :test do
   gem "debug"
