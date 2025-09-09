@@ -65,7 +65,7 @@ ARG GIT_REVISION
 ENV GIT_REVISION=$GIT_REVISION
 
 # Expose ports for HTTP and HTTPS
-EXPOSE 80 443
+EXPOSE 80
 
 # Start the server by default, this can be overwritten at runtime
 CMD ["bin/boot"]
