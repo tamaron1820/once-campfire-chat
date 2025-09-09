@@ -80,8 +80,8 @@ Rails.application.configure do
   config.i18n.fallbacks = true
 
   # Always be SSL'ing (unless told not to)
-  config.assume_ssl = ENV["DISABLE_SSL"].blank?
-  config.force_ssl  = ENV["DISABLE_SSL"].blank?
+  config.assume_ssl = false
+  config.force_ssl  = false
 
   # Don't log any deprecations.
   config.active_support.report_deprecations = false
