@@ -80,7 +80,7 @@ ssh:
 accessories:
   redis:
     image: valkey/valkey:8
-    host: 52.68.252.252
+    host: web
     port: 6379
     directories:
       - data:/data
